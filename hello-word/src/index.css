@@ -1,0 +1,30 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: #000;
+}
+
+button{
+  background: radial-gradient(circle, rgba(231,111,163,1) 19%, rgba(71,149,244,1) 88%);
+  color:#fff;
+  padding: 0 45px;
+  border:  2px solid black;
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em ;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-left: 10px;
+}
+
+button:hover { 
+  background:#b6a3e3;
+ }
